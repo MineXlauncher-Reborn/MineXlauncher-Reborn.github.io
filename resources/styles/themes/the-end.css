@@ -1,0 +1,96 @@
+body {
+	background-image: url('/resources/images/backgrounds/themes/the-end.webp');
+	font-family: Minecraftia-Regular;
+	font-size: small;
+	background-color: #150033;
+	color: #e0d8ff;
+}
+
+.launcher {
+	background-color: #1a0033;
+	box-shadow: 0 0 20px rgba(128, 0, 128, 0.5);
+}
+
+.title-bar,
+.top-title,
+.top-nav,
+.bottom-bar {
+	background-color: #22004d;
+	color: #e0d8ff;
+	box-shadow: 0 2px 4px rgba(128, 0, 128, 0.2);
+}
+
+.sidebar {
+	background-color: #1a0033;
+	border-right: 1px solid #330066;
+}
+
+.username {
+	border-bottom: 1px solid #330066;
+}
+
+.nav-bar li:hover,
+.nav-bar li.selected {
+	background-color: #330066;
+}
+
+.main-panel,
+.main-content {
+	background-color: #150033;
+}
+
+.installations {
+	background-color: #22004d;
+	border-top: 1px solid #330066;
+}
+
+.installations div .selector {
+	background-color: #4d0099;
+	border: 2px solid #330066;
+	box-shadow: 4px 4px #6600cc;
+}
+
+.installations div .selector:hover {
+	box-shadow: 6px 6px #6600cc;
+}
+
+.installations div .options {
+	background-color: #330066;
+	border: 2px solid #22004d;
+	box-shadow: 4px 4px #6600cc;
+}
+
+.installations div .options div:hover {
+	background-color: #4d0099;
+}
+
+.installations button {
+	background-color: #6600cc;
+	border: 2px solid #330066;
+}
+
+.installations button:hover {
+	background-color: #8000ff;
+	border-color: #22004d;
+}
+
+.bottom-bar > span[onclick]:hover {
+	color: #b300b3;
+}
+
+.downloads span {
+	background-color: #4d0099;
+}
+
+.downloads span:hover {
+	background-color: #8000ff;
+}
+
+.top-nav ul li:hover,
+.top-nav ul li.selected {
+	color: #e0d8ff;
+}
+
+.mod-list {
+	background-color: #150033;
+}

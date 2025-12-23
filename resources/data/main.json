@@ -1,0 +1,382 @@
+{
+	"themes": [
+		{
+			"id": "default",
+			"name": "Default"
+		},
+		{
+			"id": "light",
+			"name": "Light"
+		},
+		{
+			"id": "hyperdark",
+			"name": "Hyperdark"
+		},
+		{
+			"id": "overworld",
+			"name": "Overworld"
+		},
+		{
+			"id": "nether",
+			"name": "Nether"
+		},
+		{
+			"id": "the-end",
+			"name": "The End"
+		},
+		{
+			"id": "cherry-blossom",
+			"name": "Cherry Blossom"
+		},
+		{
+			"id": "retro",
+			"name": "Retro"
+		},
+		{
+			"id": "starfall",
+			"name": "Starfall"
+		},
+		{
+			"id": "campfire",
+			"name": "Campfire"
+		}
+	],
+	"updates": [
+		{
+			"version": "1.7.2",
+			"changelog": [
+				"Added Starlike Client",
+				"Updated EaglercraftX 1.8 to u37",
+				"Added Sweet Cherry 16x texture pack",
+				"New setting to open new tab instead of popup"
+			]
+		},
+		{
+			"version": "1.7.1",
+			"changelog": [
+				"Added an offline download for Eaglercraft Zeta 1.11",
+				"Added Precision Client",
+				"Fixed some CSS bugs"
+			]
+		},
+		{
+			"version": "1.7",
+			"changelog": [
+				"Added Eaglercraft Zeta 1.11",
+				"Console logs are now shown while playing",
+				"Added importing and exporting launcher data"
+			]
+		},
+		{
+			"version": "1.6.1",
+			"changelog": [
+				"Eaglercraft 1.9 has been updated to v0.7.0",
+				"Tutorials have been added to the launcher, go check them out!"
+			]
+		},
+		{
+			"version": "1.6",
+			"changelog": [
+				"You can now install mods directly from the mods list",
+				"Bugfix: Themes no longer flicker when navigating"
+			]
+		},
+		{
+			"version": "1.5",
+			"changelog": ["You can now install the launcher as a PWA web app"]
+		},
+		{
+			"version": "1.4",
+			"changelog": [
+				"Added welcome and setup screen",
+				"Show changelog when the launcher is updated",
+				"Added themes and backgrounds",
+				"Settings now update automatically without saving them",
+				"You will now stay on the same page when reloading",
+				"Username rules have been updated to match Minecraft"
+			]
+		},
+		{
+			"version": "1.3",
+			"changelog": ["Redesigned archive page", "Added offline page"]
+		},
+		{
+			"version": "1.2",
+			"changelog": [
+				"Added Eaglercraft 1.2.5",
+				"Added more mods and resource packs",
+				"Fix and optimize mobile site"
+			]
+		},
+		{
+			"version": "1.1",
+			"changelog": [
+				"Added a mods and resource packs list",
+				"Temporary workaround for keyboard not working in the game",
+				"Moved most images and assets to this websites in case they are blocked",
+				"Added a 404 page",
+				"Added Discord link to bottom bar",
+				"Added Peyton's Infdev and Classic versions",
+				"Updated client versions"
+			]
+		},
+		{
+			"version": "1.0",
+			"changelog": ["Major rewrite, check it out yourself!"]
+		}
+	],
+	"addons": {
+		"mods": [
+			{
+				"id": "burmod",
+				"name": "Burmod",
+				"description": "client for eaglerforge (v0.2)",
+				"author": "Murturtle",
+				"authorLink": "https://github.com/Murturtle",
+				"source": "https://github.com/Murturtle/Burmod"
+			},
+			{
+				"id": "statshud",
+				"name": "StatsHud",
+				"description": "An all-new StatsHud, soon to be updated with customization functionality!",
+				"author": "Neverflagastralis",
+				"authorLink": "https://github.com/AstralisLLC",
+				"source": "https://github.com/AstralisLLC/EaglerForge-Mods/blob/main/StatsHudV3.js"
+			},
+			{
+				"id": "fresheaglerui",
+				"name": "FreshEaglerUI",
+				"description": "Makes the UIs slide in and re works the main screen!",
+				"author": "Murturtle",
+				"authorLink": "https://github.com/Murturtle",
+				"source": "https://github.com/Murturtle/MursMods/blob/main/FreshEaglerUI.js"
+			},
+			{
+				"id": "chat-commands-mod",
+				"name": "Chat commands mod",
+				"description": "An open source mod with a built in customizable bug reports system!",
+				"author": "Neverflagastralis",
+				"authorLink": "https://github.com/AstralisLLC",
+				"source": "https://github.com/AstralisLLC/EaglerForge-Mods/blob/main/chat%20utils.js"
+			},
+			{
+				"id": "semiautologin",
+				"name": "SemiAutoLogin",
+				"description": "Press L to login without typing!",
+				"author": "Murturtle",
+				"authorLink": "https://github.com/Murturtle",
+				"source": "https://github.com/Murturtle/MursMods/blob/main/SemiAutoLogin.js"
+			},
+			{
+				"id": "blur",
+				"name": "Blur",
+				"description": "Makes your fps 5 when unfocused!",
+				"author": "Murturtle",
+				"authorLink": "https://github.com/Murturtle",
+				"source": "https://github.com/Murturtle/MursMods/blob/main/Blur.js"
+			},
+			{
+				"id": "jetpack",
+				"name": "Jetpack",
+				"description": "allows you to fly as if you had a jetpack. keybind(hold): h",
+				"author": "radmanplays",
+				"authorLink": "https://github.com/radmanplays",
+				"source": "https://github.com/radmanplays/eaglerreborn-plugins/blob/main/jetpack-ef.js"
+			},
+			{
+				"id": "barneys-music-mod",
+				"name": "Barney's Music Mod",
+				"description": "Plays a users music through a direct mp3 link. Saves music through Local Browser storage.",
+				"author": "BarneyTheGod",
+				"authorLink": "https://github.com/BarneyCompiler",
+				"source": "https://github.com/BarneyCompiler/barneysmods/blob/main/Barneys%20Music%20Player"
+			},
+			{
+				"id": "blink",
+				"name": "Blink",
+				"description": "use by typing the .blinkon and .blinkoff commands and sending it",
+				"author": "ZXMushroom63",
+				"authorLink": "https://github.com/ZXMushroom63",
+				"source": "https://github.com/eaglerforge/EaglerForge"
+			},
+			{
+				"id": "grapplehook",
+				"name": "GrappleHook",
+				"description": "grappling hook mod. how to use: 1.grab a fishing rod 2.use the fishing rod 3.grappling hook!",
+				"author": "ZXMushroom63",
+				"authorLink": "https://github.com/ZXMushroom63",
+				"source": "https://github.com/eaglerforge/EaglerForge"
+			},
+			{
+				"id": "xray",
+				"name": "Xray",
+				"description": "simple xray mod. its recommended to use this with Fullbright(modified version of ZXMushroom63's coal xray). keybind: x",
+				"author": "radmanplays",
+				"authorLink": "https://github.com/radmanplays",
+				"source": "https://github.com/EaglerRinth/eaglerrinth.github.io/blob/main/CommunityMods/Xray.js"
+			},
+			{
+				"id": "fullbright",
+				"name": "Fullbright",
+				"description": "full bright mod for eaglerforge. keybind(enabled by default): f",
+				"author": "radmanplays",
+				"authorLink": "https://github.com/radmanplays",
+				"source": "https://github.com/EaglerRinth/eaglerrinth.github.io/blob/main/CommunityMods/fullbright.js"
+			},
+			{
+				"id": "autoclicker",
+				"name": "Autoclicker",
+				"description": "this mod clicks for you",
+				"author": "radmanplays",
+				"authorLink": "https://github.com/radmanplays",
+				"source": "https://github.com/EaglerRinth/eaglerrinth.github.io/blob/main/CommunityMods/autoclicker.js"
+			},
+			{
+				"id": "speed-mod",
+				"name": "Speed Mod",
+				"description": "makes you faster",
+				"author": "radmanplays",
+				"authorLink": "https://github.com/radmanplays",
+				"source": "https://github.com/EaglerRinth/eaglerrinth.github.io/blob/main/CommunityMods/Speed.js"
+			},
+			{
+				"id": "chat-shortcuts",
+				"name": "Chat Shortcuts",
+				"description": "shortcuts: {health}, {pos}, {name}, {me}, {x}, {y}, {z}, {level}, {walked}, {chunk}",
+				"author": "ZXMushroom63",
+				"authorLink": "https://github.com/ZXMushroom63",
+				"source": "https://github.com/EaglerRinth/eaglerrinth.github.io/blob/main/CommunityMods/ChatShortcuts.js"
+			},
+			{
+				"id": "nofall",
+				"name": "NoFall",
+				"description": "makes you not take fall damage",
+				"author": "ZXMushroom63",
+				"authorLink": "https://github.com/ZXMushroom63",
+				"source": "https://github.com/EaglerRinth/eaglerrinth.github.io/blob/main/CommunityMods/NoFall.js"
+			},
+			{
+				"id": "autofish",
+				"name": "AutoFish",
+				"description": "fishes for you. just throw a fishing rod in water to use this mod",
+				"author": "ZXMushroom63",
+				"authorLink": "https://github.com/ZXMushroom63",
+				"source": "https://github.com/EaglerRinth/eaglerrinth.github.io/blob/main/CommunityMods/AutoFish.js"
+			},
+			{
+				"id": "recipe-mod",
+				"name": "Recipe Mod",
+				"description": "This is a recipe mod for eaglerforge, a bit like JEI.",
+				"author": "Oeil-de-Lynx",
+				"authorLink": "https://github.com/OeildeLynx31",
+				"source": "https://github.com/OeildeLynx31/eaglerforge-mods/blob/main/eagler_recipe.js"
+			},
+			{
+				"id": "auto-respawn",
+				"name": "Auto Respawn",
+				"description": "auto respawn mod",
+				"author": "Oeil-de-Lynx",
+				"authorLink": "https://github.com/OeildeLynx31",
+				"source": "https://github.com/OeildeLynx31/eaglerforge-mods/blob/main/auto_respawn.js"
+			},
+			{
+				"id": "jump-boost",
+				"name": "Jump Boost",
+				"description": "jump boost mod",
+				"author": "Oeil-de-Lynx",
+				"authorLink": "https://github.com/OeildeLynx31",
+				"source": "https://github.com/OeildeLynx31/eaglerforge-mods/blob/main/jump_boost.js"
+			},
+			{
+				"id": "player-vision",
+				"name": "Player Vision",
+				"description": "player vision mod",
+				"author": "Oeil-de-Lynx",
+				"authorLink": "https://github.com/OeildeLynx31",
+				"source": "https://github.com/OeildeLynx31/eaglerforge-mods/blob/main/player_vision.js"
+			}
+		],
+		"resourcepacks": [
+			{
+				"id": "updated-textures-for-1-8-9",
+				"name": "Updated Textures for 1.8.9",
+				"description": "This resource pack aims to backport textures and sounds from the Texture Update and onward to Minecraft version 1.8.9.",
+				"author": "Arky",
+				"authorLink": "https://www.planetminecraft.com/member/arky/",
+				"source": "https://www.planetminecraft.com/texture-pack/updated-textures-for-1-8-9/"
+			},
+			{
+				"id": "barebones-bossbars",
+				"name": "Barebones Bossbars",
+				"description": "simplistic per-mob icons and colors to decorate boss bars with",
+				"author": "vexcenot",
+				"authorLink": "https://modrinth.com/user/vexcenot",
+				"source": "https://modrinth.com/resourcepack/barebones-bossbars"
+			},
+			{
+				"id": "daggers",
+				"name": "Daggers",
+				"description": "Shorter swords for better visibility.",
+				"author": "devin",
+				"authorLink": "https://modrinth.com/user/devin",
+				"source": "https://modrinth.com/resourcepack/daggers"
+			},
+			{
+				"id": "faithful-32x",
+				"name": "Faithful (32x)",
+				"description": "The original Minecraft texture feel, with double the resolution and double the fun!",
+				"author": "Faithful-Resource-Pack",
+				"authorLink": "https://modrinth.com/user/Faithful-Resource-Pack",
+				"source": "https://modrinth.com/resourcepack/faithful-32x"
+			},
+			{
+				"id": "low-on-fire",
+				"name": "Low On Fire",
+				"description": "Low fire on your screen! Vanilla Friendly",
+				"author": "Haikis",
+				"authorLink": "https://modrinth.com/user/Haikis",
+				"source": "https://modrinth.com/resourcepack/low-on-fire"
+			},
+			{
+				"id": "serified-font",
+				"name": "Serified Font",
+				"description": "My take on a fancier Minecraft typeface",
+				"author": "bebebea_loste",
+				"authorLink": "https://modrinth.com/user/bebebea_loste",
+				"source": "https://modrinth.com/resourcepack/serified-font"
+			},
+			{
+				"id": "default-hd",
+				"name": "Default HD",
+				"description": "The classic Minecraft experience but in amazing 128x, 256x, and 512x HD! Gives a shaders feel without the awful FPS drop!",
+				"author": "thebaum64",
+				"authorLink": "https://modrinth.com/user/thebaum64",
+				"source": "https://modrinth.com/resourcepack/default-hd"
+			},
+			{
+				"id": "diamonds-to-netherite",
+				"name": "Diamonds to Netherite",
+				"description": "Soo... Minecraft added the new netherite block to the game and so i tought would be a great idea that i change the normal diamonds into the NETHERITE!",
+				"author": "The REAL Senpai",
+				"authorLink": "https://www.planetminecraft.com/member/the_real_senpai/",
+				"source": "https://www.planetminecraft.com/texture-pack/senpa1-1-8-9-1-16-texture-pack-netherite/"
+			},
+			{
+				"id": "sweet-cherry-16x",
+				"name": "Sweet Cherry 16x",
+				"description": "Sweet Cherry 16x is a pack made for Alcheras reaching 5,000 subscribers! Perfect for 1.8 player vs player such as bedwars, duels & skywars!",
+				"author": "VanillaSpooks",
+				"authorLink": "https://www.planetminecraft.com/member/vanillaspooks/",
+				"source": "https://www.planetminecraft.com/texture-pack/sweet-cherry-16x/"
+			},
+			{
+				"id": "honey-256x",
+				"name": "Honey [256x]",
+				"description": "Honey [256x] Pack Release",
+				"author": "tryagain",
+				"authorLink": "https://www.planetminecraft.com/member/tryagain/",
+				"source": "https://www.planetminecraft.com/texture-pack/honey-256x-pack-release/"
+			}
+		]
+	}
+}

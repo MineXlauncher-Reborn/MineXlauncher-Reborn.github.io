@@ -1,0 +1,124 @@
+body {
+	background-image: url('/resources/images/backgrounds/themes/cherry-blossom.webp');
+	background-color: #fef0f5;
+	color: #333;
+}
+
+.launcher {
+	background-color: #fdf0f5;
+}
+
+.title-bar {
+	background-color: #f6e7f3;
+	color: #333;
+}
+
+.sidebar {
+	background-color: #f9f0f4;
+	border-right: 1px solid #e0d1e3;
+}
+
+.username {
+	border-bottom: 1px solid #e0d1e3;
+}
+
+.nav-bar li:hover,
+.nav-bar li.selected {
+	background-color: #f4c6d0;
+}
+
+.main-panel {
+	background-color: #fef0f5;
+}
+
+.top-title {
+	background-color: #f6e7f3;
+	color: #333;
+}
+
+.top-nav {
+	background-color: #f6e7f3;
+	color: #333;
+}
+
+.top-nav ul li {
+	color: #333;
+}
+
+.top-nav ul li.selected {
+	color: #e5a1b8;
+}
+
+.main-content {
+	background-color: #fef0f5;
+	scrollbar-color: #f2c8d5 #fef0f5;
+}
+
+.installations {
+	background-color: #f9e6f1;
+	border-top: 1px solid #e0d1e3;
+}
+
+.installations div .selector {
+	border: 2px solid #f2c8d5;
+	background-color: #f9e6f1;
+	color: #333;
+}
+
+.installations div .options {
+	border: 2px solid #f2c8d5;
+	background-color: #fceef2;
+	color: #333;
+	scrollbar-color: #f2c8d5 #fceef2;
+}
+
+.installations div .options div {
+	border-bottom: 1px solid #f2c8d5;
+}
+
+.installations div .options div:hover {
+	background-color: #f8d4e4;
+}
+
+.installations button {
+	background-color: #e5a1b8;
+	border: 2px solid #d0808e;
+}
+
+.installations button:hover {
+	background-color: #f7b7bc;
+	border-color: #d0808e;
+}
+
+.bottom-bar {
+	background-color: #f6e7f3;
+	border-top: 1px solid #e0d1e3;
+	color: #333;
+}
+
+.bottom-bar > span[onclick]:hover {
+	color: #e5a1b8;
+}
+
+.downloads span {
+	background-color: #d0808e;
+}
+
+.downloads span:hover {
+	background-color: #e5a1b8;
+}
+
+input[type='text'],
+select {
+	border: 1px solid #e0d1e3;
+	background-color: #f9e6f1;
+	color: #333;
+}
+
+button {
+	background-color: #f2c8d5;
+}
+
+button:hover {
+	background-color: #e5a1b8;
+}

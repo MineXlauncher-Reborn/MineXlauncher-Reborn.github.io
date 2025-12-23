@@ -1,0 +1,127 @@
+body {
+	background-color: #121212;
+	color: #e0e0e0;
+}
+
+.launcher {
+	background-color: #1e1e1e;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.title-bar {
+	background-color: #1a1a1a;
+	color: #e0e0e0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar {
+	background-color: #262626;
+}
+
+.nav-bar li:hover,
+.nav-bar li.selected {
+	background-color: #333;
+}
+
+.main-panel {
+	background-color: #1e1e1e;
+}
+
+.top-title {
+	background-color: #1a1a1a;
+	color: #e0e0e0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.top-nav {
+	background-color: #1a1a1a;
+	color: #e0e0e0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-content {
+	background-color: #121212;
+	scrollbar-color: #333 #121212;
+}
+
+.installations {
+	background-color: #1c1c1c;
+}
+
+.installations div .selector {
+	border: 2px solid #444;
+	background-color: #333;
+	color: #e0e0e0;
+	box-shadow: 4px 4px #111;
+}
+
+.installations div .selector:hover {
+	box-shadow: 6px 6px #111;
+}
+
+.installations div .options {
+	border: 2px solid #444;
+	background-color: #222;
+	box-shadow: 4px 4px #111;
+	color: #e0e0e0;
+	scrollbar-color: #333 #222;
+}
+
+.installations div .options div {
+	border-bottom: 1px solid #444;
+}
+
+.installations div .options div:hover {
+	background-color: #333;
+}
+
+.installations button {
+	background-color: #444;
+	border: 2px solid #333;
+	color: #e0e0e0;
+}
+
+.installations button:hover {
+	background-color: #555;
+	border-color: #444;
+}
+
+.bottom-bar {
+	background-color: #1a1a1a;
+	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+	color: #e0e0e0;
+}
+
+.bottom-bar > span[onclick]:hover {
+	color: #aaa;
+}
+
+.downloads span {
+	background-color: #333;
+	color: #e0e0e0;
+}
+
+.downloads span:hover {
+	background-color: #444;
+}
+
+input[type='text'],
+select {
+	border: 1px solid #444;
+	background-color: #1e1e1e;
+	color: #e0e0e0;
+}
+
+input[type='text']::placeholder,
+select option {
+	color: #e0e0e0;
+}
+
+button {
+	background-color: #333;
+	color: #e0e0e0;
+}
+
+button:hover {
+	background-color: #444;
+}

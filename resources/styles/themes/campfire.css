@@ -1,0 +1,94 @@
+body {
+	background-image: url('/resources/images/backgrounds/themes/campfire.webp');
+	background-color: #2b1b0f;
+	color: #f5e0c3;
+}
+
+.launcher {
+	background-color: #3e2a1a;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.title-bar,
+.top-title,
+.top-nav {
+	background-color: #4a2f1b;
+	color: #f5e0c3;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+	background-color: #3a2416;
+	border-right: 1px solid #4a2f1b;
+}
+
+.username {
+	border-bottom: 1px solid #4a2f1b;
+}
+
+.nav-bar li:hover,
+.nav-bar li.selected {
+	background-color: #5a3a2a;
+}
+
+.main-panel,
+.main-content {
+	background-color: #2b1b0f;
+}
+
+.installations {
+	background-color: #3e2a1a;
+	border-top: 1px solid #4a2f1b;
+}
+
+.installations div .selector {
+	background-color: #5a3a2a;
+	border: 2px solid #4a2f1b;
+	color: #f5e0c3;
+	box-shadow: 4px 4px #2b1b0f;
+}
+
+.installations div .selector:hover {
+	box-shadow: 6px 6px #2b1b0f;
+}
+
+.installations div .options {
+	background-color: #4a2f1b;
+	box-shadow: 4px 4px #2b1b0f;
+}
+
+.installations div .options div:hover {
+	background-color: #6a4a3a;
+}
+
+.installations button {
+	background-color: #ff6600;
+	border: 2px solid #cc5200;
+}
+
+.installations button:hover {
+	background-color: #ff8533;
+	border-color: #b34700;
+}
+
+.bottom-bar {
+	background-color: #4a2f1b;
+	border-top: 1px solid #5a3a2a;
+	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.downloads span {
+	background-color: #ff6600;
+}
+
+.downloads span:hover {
+	background-color: #ff8533;
+}
+
+.top-nav ul li {
+	color: #f5e0c3;
+}
+
+.top-nav ul li.selected {
+	color: #ffcc00;
+}

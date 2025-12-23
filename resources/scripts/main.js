@@ -1,8 +1,3 @@
-import $ from 'jquery';
-import { gt, coerce } from 'semver';
-import { inflate, deflate } from 'pako';
-// @ts-expect-error
-import idbExportImport from 'indexeddb-export-import';
 let selectedVersion = undefined;
 let articleAnimationLock = false;
 const theme = {

@@ -13,6 +13,7 @@ const theme = {
         theme.load();
     },
 };
+window.theme = theme;
 const versionSelector = {
     open: function () {
         const options = document.querySelector('.installations div .options');
@@ -39,6 +40,7 @@ const versionSelector = {
         }
     },
 };
+window.versionSelector = versionSelector;
 function consoleLog(type, msg) {
     if (type === 'info') {
         if (msg.includes('DEBUG'))
@@ -187,6 +189,7 @@ const game = {
         }
     },
 };
+window.game = game;
 const navigate = {
     home: {
         game: function () {
@@ -256,6 +259,7 @@ const navigate = {
         window.location.href = navUrl;
     },
 };
+window.navigate = navigate;
 function openAboutBlank(url, options) {
     const newWindow = window.open('about:blank', '_blank', 'popup');
     if (newWindow) {
@@ -313,6 +317,7 @@ const article = {
         }
     },
 };
+window.article = article;
 /*const cookie = {
     set: function (key: string, value: string | number | object | [] | boolean | null | undefined, days: number) {
         let maxAge;
@@ -390,11 +395,13 @@ const storage = {
         },
     },
 };
+window.storage = storage;
 const query = {
     get: function (name) {
         return new URLSearchParams(window.top?.location.search).get(name);
     },
 };
+window.query = query;
 const detect = {
     mobile: function () {
         try {
@@ -409,6 +416,7 @@ const detect = {
         return window.innerWidth > window.innerHeight;
     },
 };
+window.detect = detect;
 const addons = {
     mods: {
         toggle: function (modId) {
@@ -439,6 +447,7 @@ const addons = {
         },
     },
 };
+window.addons = addons;
 const backups = {
     export: async function () {
         const exportData = {
@@ -521,6 +530,7 @@ const backups = {
             .catch((error) => console.error(error));
     },
 };
+window.backups = backups;
 const sw = {
     register: function (url) {
         if ('serviceWorker' in navigator) {
@@ -538,14 +548,24 @@ const sw = {
         }
     },
 };
+window.sw = sw;
 const base64Gzip = {
     compress: function (string) {
-        return btoa(String.fromCharCode(...deflate(new TextEncoder().encode(string))));
+        if (typeof deflate !== 'undefined') {
+            return btoa(String.fromCharCode(...deflate(new TextEncoder().encode(string))));
+        } else {
+            return btoa(encodeURIComponent(string));
+        }
     },
     decompress: function (string) {
-        return inflate(Uint8Array.from(atob(string), (c) => c.charCodeAt(0)), { to: 'string' });
+        if (typeof inflate !== 'undefined') {
+            return inflate(Uint8Array.from(atob(string), (c) => c.charCodeAt(0)), { to: 'string' });
+        } else {
+            return decodeURIComponent(atob(string));
+        }
     },
 };
+window.base64Gzip = base64Gzip;
 function downloadFile(url, name) {
     const a = document.createElement('a');
     a.href = url;

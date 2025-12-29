@@ -45,7 +45,6 @@
 		{
 			"version": "1.8",
 			"changelog": [
-				"Fixed the broken launcher scripts",
 				"Added 1.12.2, 1.7.10, 1.6.4 and 1.4.7",
 				"Added Beta 1.0, 1.1, 1.2, 1.4, 1.5, 1.6.4, 1.7.3 and 1.8.1",
 				"Added Alpha 1.1.2 and 1.0.6",
@@ -55,7 +54,9 @@
 				"Updated Beta 1.3 to u1",
 				"Updated Astra Client to 1.6",
 				"Updated Resent Client to 5.0",
+				"Fixed the broken launcher scripts",
 				"Fixed The Archive",
+				"Redesigned The Downloads Page To Look Like The Archive",
 				"Removed Feature Port Versions, 1.11.2, 1.9.4, etc"
 			]
 		},

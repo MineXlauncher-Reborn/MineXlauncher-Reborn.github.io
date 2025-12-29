@@ -1,5 +1,36 @@
 let selectedVersion = undefined;
+let selectedClient = undefined;
 let articleAnimationLock = false;
+
+function toggleDropdown(element) {
+    const dropdown = element.parentElement;
+    const options = dropdown.querySelector('.options');
+    options.classList.toggle('open');
+    element.classList.toggle('open');
+}
+
+function selectVersion(version) {
+    document.getElementById('versionLabel').textContent = version;
+    selectedVersion = version;
+    const dropdown = document.getElementById('versionDropdown');
+    const options = dropdown.querySelector('.options');
+    const selector = dropdown.querySelector('.selector');
+    options.classList.remove('open');
+    selector.classList.remove('open');
+    if (version.includes('wasm')) {
+        document.getElementById('runtimePopup').classList.remove('hidden');
+    }
+}
+
+function selectClient(client) {
+    document.getElementById('clientLabel').textContent = client;
+    selectedClient = client;
+    const dropdown = document.getElementById('clientDropdown');
+    const options = dropdown.querySelector('.options');
+    const selector = dropdown.querySelector('.selector');
+    options.classList.remove('open');
+    selector.classList.remove('open');
+}
 const theme = {
     load: function (themeToLoad) {
         const themeElement = document.querySelector('#theme');
@@ -846,6 +877,18 @@ else if (window.location.pathname === '/home/game/' ||
     const lastGame = storage.session.get('lastGame');
     if (lastGame)
         game.select(lastGame);
+}
+else if (window.location.pathname === '/home/downloads/') {
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('wasmBtn').addEventListener('click', () => {
+            alert('Downloading WASM version for ' + selectedVersion + ' with ' + selectedClient);
+            document.getElementById('runtimePopup').classList.add('hidden');
+        });
+        document.getElementById('jsBtn').addEventListener('click', () => {
+            alert('Downloading JS version for ' + selectedVersion + ' with ' + selectedClient);
+            document.getElementById('runtimePopup').classList.add('hidden');
+        });
+    });
 }
 if (window.location.hostname === null) {
     // Stop the minifier from removing these functions

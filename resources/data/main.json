@@ -43,6 +43,22 @@
 	],
 	"updates": [
 		{
+			"version": "1.8",
+			"changelog": [
+				"Fixed the broken launcher scripts",
+				"Added 1.12.2, 1.7.10, 1.6.4 and 1.4.7",
+				"Added Beta 1.0, 1.1, 1.2, 1.4, 1.5, 1.6.4, 1.7.3 and 1.8.1",
+				"Added Alpha 1.1.2 and 1.0.6",
+				"Added EFI 1.12.2, EFI 1.8.8, GX-Client 1.8.8, Tuff Client 1.12.2, Pixel Client 1.12.2, 1.6.4 WASM Forge Port, Wurst Client and Justin Client V3",
+				"Updated 1.8.8 to u53",
+				"Updated 1.5.2 to sp2.01",
+				"Updated Beta 1.3 to u1",
+				"Updated Astra Client to 1.6",
+				"Updated Resent Client to 5.0",
+				"Fixed The Archive"
+			]
+		},
+		{
 			"version": "1.7.2",
 			"changelog": [
 				"Added Starlike Client",

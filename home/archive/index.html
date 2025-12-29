@@ -75,8 +75,8 @@
 					<div class="main-content">
 						<div class="archive">
 							<div>
-								<label for="112-client-version">1.12 versions:</label>
-								<select id="112-client-version">
+								<label for="1.12.2-client-version">1.12 versions:</label>
+								<select id="1.12.2-client-version">
 									<option disabled selected hidden value="">
 										Select version
 									</option>
@@ -91,11 +91,11 @@
 										<option value="26w01a">26w01a</option>
 									</optgroup>
 								</select>
-								<button onclick="game.archive('1.12')">Open</button>
+								<button onclick="game.archive('1.12.2')">Open</button>
 							</div>
 							<div>
-								<label for="18-client-version">1.8 versions:</label>
-								<select id="18-client-version">
+								<label for="1.8.8-client-version">1.8 versions:</label>
+								<select id="1.8.8-client-version">
 									<option disabled selected hidden value="">
 										Select version
 									</option>
@@ -161,11 +161,35 @@
 										<option value="pre-alpha">pre-alpha</option>
 									</optgroup>
 								</select>
-								<button onclick="game.archive('1.8')">Open</button>
+								<button onclick="game.archive('1.8.8')">Open</button>
 							</div>
 							<div>
-								<label for="15-client-version">1.5 versions:</label>
-								<select id="15-client-version">
+								<label for="1.7.10-client-version">1.7 versions:</label>
+								<select id="1.7.10-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Pre-Releases">
+										<option value="u0">u0</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('1.7.10')">Open</button>
+							</div>
+							<div>
+								<label for="1.6.4-client-version">1.6 versions:</label>
+								<select id="1.6.4-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Releases">
+										<option value="25w22a">25w22a</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('1.6.4')">Open</button>
+							</div>
+							<div>
+								<label for="1.5.2-client-version">1.5 versions:</label>
+								<select id="1.5.2-client-version">
 									<option disabled selected hidden value="">
 										Select version
 									</option>
@@ -245,17 +269,115 @@
 										<option value="20m06-29">20m06-29</option>
 									</optgroup>
 								</select>
-								<button onclick="game.archive('1.5')">Open</button>
+								<button onclick="game.archive('1.5.2')">Open</button>
 							</div>
 							<div>
-								<label for="b13-client-version">Select Beta 1.3 version:</label>
-								<select id="b13-client-version">
+								<label for="1.4.7-client-version">1.4 versions:</label>
+								<select id="1.4.7-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Pre-Releases">
+										<option value="u0">u0</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('1.4.7')">Open</button>
+							</div>
+							<div>
+								<label for="1.2.5-client-version">1.2 versions:</label>
+								<select id="1.2.5-client-version">
 									<option disabled selected hidden value="">
 										Select version
 									</option>
 									<optgroup label="Releases">
-										<option value="u1.0.3">u1.0.3</option>
+										<option value="25w46a">25w46a</option>
+										<option value="25w38a">25w38a</option>
+									</optgroup>
+									<optgroup>
+										<option value="24w27a">24w27a</option>
+										<option value="24w26d">24w26d</option>
+										<option value="24w26c">24w26c</option>
+										<option value="24w26b">24w26b</option>
+										<option value="24w26a">24w26a</option>
+										<option value="24w25a">24w25a</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('1.2.5')">Open</button>
+							</div>
+							<div>
+								<label for="b1.8.1-client-version">Beta 1.8 versions:</label>
+								<select id="b1.8.1-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Releases">
+										<option value="25w46a">25w46a</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('b1.8.1')">Open</button>
+							</div>
+							<div>
+								<label for="b1.7.3-client-version">Beta 1.7 versions:</label>
+								<select id="b1.7.3-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Releases">
+										<option value="u3">u3</option>
+										<option value="u2">u2</option>
+										<option value="u1">u1</option>
+										<option value="u0">u0</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('b1.7.3')">Open</button>
+							</div>
+							<div>
+								<label for="b1.6.4-client-version">Beta 1.6 versions:</label>
+								<select id="b1.6.4-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Pre-Releases">
+										<option value="25w22a">25w22a</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('b1.6.4')">Open</button>
+							</div>
+							<div>
+								<label for="b1.5-client-version">Beta 1.5 versions:</label>
+								<select id="b1.5-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Pre-Releases">
+										<option value="25w26a">25w26a</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('b1.5')">Open</button>
+							</div>
+							<div>
+								<label for="b1.4-client-version">Beta 1.4 versions:</label>
+								<select id="b1.4-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Pre-Releases">
+										<option value="25w24c">25w24c</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('b1.4')">Open</button>
+							</div>
+							<div>
+								<label for="b1.3-client-version">Beta 1.3 versions:</label>
+								<select id="b1.3-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Releases">
+										<option value="u1">u1</option>
 										<option value="23w49a">23w49a</option>
+									</optgroup>
+									<optgroup label="Pre-Releases">
 										<option value="22w22b">22w22b</option>
 										<option value="22w22a">22w22a</option>
 										<option value="22w21a">22w21a</option>
@@ -263,6 +385,42 @@
 									</optgroup>
 								</select>
 								<button onclick="game.archive('b1.3')">Open</button>
+							</div>
+							<div>
+								<label for="b1.2-client-version">Beta 1.2 versions:</label>
+								<select id="b1.2-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Pre-Releases">
+										<option value="25w24b">25w24b</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('b1.2')">Open</button>
+							</div>
+							<div>
+								<label for="b1.1-client-version">Beta 1.1 versions:</label>
+								<select id="b1.1-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Releases">
+										<option value="u0">u0</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('b1.1')">Open</button>
+							</div>
+							<div>
+								<label for="b1.0-client-version">Beta 1.0 versions:</label>
+								<select id="b1.0-client-version">
+									<option disabled selected hidden value="">
+										Select version
+									</option>
+									<optgroup label="Releases">
+										<option value="23w27a">23w27a</option>
+									</optgroup>
+								</select>
+								<button onclick="game.archive('b1.0')">Open</button>
 							</div>
 							<button
 								onclick="window.open('https://archive.eaglercraft.rip/EaglercraftX_1.8/server/')"
@@ -284,10 +442,10 @@
 				</div>
 			</div>
 			<div class="bottom-bar">
-				<span onclick="window.open('https://discord.gg/VRwbRJjXzt')"
-					>Join the MineXLauncher Discord</span
+				<span onclick="window.open('https://github.com/xXJ0NXx')"
+					>My Github</span
 				>
-				<span>© 2025 MineXLauncher. All rights reserved.</span>
+				<span>Revamped By xXJ0NXx</span>
 			</div>
 		</div>
 		<div class="ads-container">

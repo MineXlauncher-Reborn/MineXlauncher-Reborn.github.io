@@ -176,15 +176,28 @@ const game = {
     },
     archive: function (client) {
         const clients = {
-            '1.8': '18-client-version',
-            '1.5': '15-client-version',
-            'b1.3': 'b13-client-version',
+            '1.12.2': '1.12.2-client-version',
+            '1.8.8': '1.8.8-client-version',
+            '1.7.10': '1.7.10-client-version',
+            '1.6.4': '1.6.4-client-version',
+            '1.5.2': '1.5.2-client-version',
+            '1.4.7': '1.4.7-client-version',
+            '1.2.5': '1.2.5-client-version',
+            'b1.8.1': 'b1.8.1-client-version',
+            'b1.7.3': 'b1.7.3-client-version',
+            'b1.6.4': 'b1.6.4-client-version',
+            'b1.5': 'b1.5-client-version',
+            'b1.4': 'b1.4-client-version',
+            'b1.3': 'b1.3-client-version',
+            'b1.2': 'b1.2-client-version',
+            'b1.1': 'b1.1-client-version',
+            'b1.0': 'b1.0-client-version',
         };
         const dropdown = clients[client]
             ? document.querySelector(`select[id='${clients[client]}']`)
             : null;
         if (dropdown?.value) {
-            selectedVersion = `https://archive.eaglercraft.rip/Eaglercraft${client === '1.8' ? 'X_1.8' : `_${client}`}/client/${dropdown.value}/index.html`;
+            selectedVersion = `/archive/${client}/${dropdown.value}/index.html`;
             game.play();
         }
     },
